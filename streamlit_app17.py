@@ -8,7 +8,8 @@
 # message = st.secrets.get('message', 'Key "message" not found in secrets')
 # st.write("Message:", message)
 import streamlit as st
+def display():
+    st.title('st.secrets')
 
-st.title('st.secrets')
-
-st.write(st.secrets['message'])
+    #(st.secrets['message'])真存储在secrets.toml里面
+    st.write(st.secrets['message'])

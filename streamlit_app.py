@@ -1,3 +1,3 @@
 import streamlit as st
-
-st.write('Hello world!')
+def display():
+    st.write('Hello world!')
